@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+}
+
+.tagtext {
+	background-color: #E0E0DC;
+	text-decoration: none;
+	padding: 4px 4px 4px 4px;
+	border: 1px solid;
+	border-color: #E0E0DC; 
+    border-radius: 13px;
+    box-sizing: border-box; /* add this */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Older Webkit browsers */
+    color: #61615F;
+    display: -webkit-inline-box;
+
+ 	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+
+.tagtext:hover {
+	background-color: #BFBFBB;
+	border-color: #BFBFBB; 
+	text-decoration: none;
+}
